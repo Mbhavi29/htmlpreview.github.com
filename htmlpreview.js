@@ -18,7 +18,6 @@
 			}
 		}
 		//Links
-		a = document.querySelectorAll('a[href]');
 		for (i = 0; i < a.length; ++i) {
 			href = a[i].href; //Get absolute URL
 			if (href.indexOf('#') > 0) { //Check if it's an anchor
